@@ -1,0 +1,30 @@
+{
+  "name": "elm-css-brunch",
+  "version": "0.0.1",
+  "description": "Brunch plugin to compile Elm Css (https://github.com/jaeh/elm-css-brunch)",
+  "main": "index.js",
+  "scripts": {
+    "start": "ava --verbose --watch ./test",
+    "test": "ava ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaeh/elm-css-brunch"
+  },
+  "keywords": [
+    "elm",
+    "elm-css",
+    "brunch.io"
+  ],
+  "author": "Jascha Ehrenreich <jascha@jaeh.at>",
+  "bugs": {
+    "url": "https://github.com/jaeh/elm-css-brunch/issues"
+  },
+  "homepage": "https://github.com/jaeh/elm-css-brunch",
+  "devDependencies": {
+    "ava": "0.16.0"
+  },
+  "dependencies": {
+    "elm-css": "0.5.1"
+  }
+}
