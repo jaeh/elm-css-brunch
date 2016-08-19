@@ -12,7 +12,7 @@ that then get picked up by the CssBrunch plugin
 
 # Install elm-brunch
 ```
-npm install --save elm-css-brunch
+npm install --save-dev jaeh/elm-css-brunch
 ```
 
 # Brunch defaultConfig:
