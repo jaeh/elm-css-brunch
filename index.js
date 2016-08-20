@@ -15,7 +15,7 @@ class ElmCssCompiler {
     )
 
     this.config.command =
-      [ path.join(__dirname, 'node_modules', '.bin', 'elm-css')
+      [ path.join(process.cwd(), 'node_modules', '.bin', 'elm-css')
       , `--root ${this.config.root}`
       , `--output ${this.config.output}`
       , `${this.config.sourcePath}`
