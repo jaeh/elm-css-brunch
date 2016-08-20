@@ -20,7 +20,7 @@ class ElmCssCompiler {
       , `${this.config.sourcePath}`
       ].join(' ')
 
-    console.log(`ElmCssBrunch building ${this.config.sourcePath} to ${this.config.output}`)
+    console.log(`ElmCss compile: ${this.config.sourcePath} in ${this.config.root} to ${this.config.output}`)
   }
 
   compile(file) {
