@@ -20,10 +20,7 @@ class ElmCssCompiler {
       , `${this.config.sourcePath}`
       ].join(' ')
 
-    // console.log(
-    //   'init elm-css finished. config:'
-    // , this.config
-    // )
+    console.log(`ElmCssBrunch building ${this.config.sourcePath} to ${this.config.output}`)
   }
 
   compile(file) {
