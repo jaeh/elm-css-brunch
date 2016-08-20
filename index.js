@@ -1,3 +1,4 @@
+const path = require('path');
 const childProcess = require('child_process')
 
 const cwd = process.cwd();
@@ -14,7 +15,7 @@ class ElmCssCompiler {
     )
 
     this.config.command =
-      [ 'elm-css'
+      [ path.join(__dirname, 'node_modules', '.bin', 'elm-css')
       , `--root ${this.config.root}`
       , `--output ${this.config.output}`
       , `${this.config.sourcePath}`
